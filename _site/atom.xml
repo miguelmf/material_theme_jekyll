@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>my name</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000"/>
+ <updated>2018-04-06T14:59:32+01:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>miguel</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Changes I made to the default material theme</title>
+   <link href="http://localhost:4000/2018/04/06/changes_from_default_material.html"/>
+   <updated>2018-04-06T01:00:00+01:00</updated>
+   <id>http://localhost:4000/2018/04/06/changes_from_default_material</id>
+   <content type="html">&lt;p&gt;Hey there,&lt;/p&gt;
+
+&lt;p&gt;I’ve been looking for an easy to use theme for a personal site (which I will most likely not actively use) and I came across a jekyll theme called &lt;em&gt;material&lt;/em&gt;. Jekyll is a pretty nice and easy to use static site generator. Another alternative to jekyll is &lt;em&gt;hugo&lt;/em&gt;, which is also great. You can’t go wrong with either one.&lt;/p&gt;
+
+&lt;p&gt;So, the material theme is made by lukas-h and is hosted on github (https://github.com/lukas-h/material-theme). It is MIT licensed.&lt;/p&gt;
+
+&lt;p&gt;I’ve made some changes to it in order to use it as my own personal site. Here’s what I changed:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Disabled google-analytics (I’m pretty averse to tracking and I effectively use browser add-ons in order to safely browse the internet. It would be pretty hypocrite of me to have GA on my own website);&lt;/li&gt;
+  &lt;li&gt;Changed to a dark/night mode (I usually prefer dark background in pretty much everything I do on the computer. Helps with vision and hides the annoying dead pixels);&lt;/li&gt;
+  &lt;li&gt;Increased paragraph’s width (I find the default width to be too narrow);&lt;/li&gt;
+  &lt;li&gt;Added support for mathjax (I come from a background where math is often used. Having support for latex is a must);&lt;/li&gt;
+  &lt;li&gt;Added an &lt;strong&gt;about&lt;/strong&gt; page (The content of this page is, however, directly written in the .html file. I would like to have an about.md on the root directory instead, but I couldn’t make it work. If you know how, please let me know);&lt;/li&gt;
+  &lt;li&gt;Several changes to the Posts menu (removed the small paragraph below each post, brought the titles closer together, added “»»” for eye guidance, etc);&lt;/li&gt;
+  &lt;li&gt;Changed coloring of the buttons, when active and when inactive;&lt;/li&gt;
+  &lt;li&gt;Hid the bottom bar (I’d rather add those links in the about page);&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that is all I can remember. Please check out the original theme in &lt;a href=&quot;https://github.com/lukas-h/material-theme&quot;&gt;https://github.com/lukas-h/material-theme&lt;/a&gt;. &lt;a href=&quot;https://github.com/lukas-h&quot;&gt;lukas-h&lt;/a&gt; did great here and he also has other nice themes. Check him out.&lt;/p&gt;
+
+&lt;p&gt;If you want to use a dark version of lukas’ material theme, with a few other changes, you can either edit lukas’ theme, as I did, or you can fork/clone my repo. Be aware, however, that I know nothing of html and css and so the code (my part) is probably a mess.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Testing latex</title>
+   <link href="http://localhost:4000/2017/12/31/testing-latex.html"/>
+   <updated>2017-12-31T22:00:00+00:00</updated>
+   <id>http://localhost:4000/2017/12/31/testing-latex</id>
+   <content type="html">&lt;p&gt;A fraction:
+\[ \frac{1}{n^{2}} \]&lt;/p&gt;
+
+&lt;p&gt;and something else:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>theme users</title>
+   <link href="http://localhost:4000/github/open-source/project/jekyll/2017/06/15/theme-users.html"/>
+   <updated>2017-06-15T03:06:00+01:00</updated>
+   <id>http://localhost:4000/github/open-source/project/jekyll/2017/06/15/theme-users</id>
+   <content type="html">&lt;p&gt;Some people who use one of my jekyll themes (&lt;a href=&quot;http://himsel.me/material-theme&quot;&gt;himsel.me/material-theme&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://varundey.me/blogs/hacking-my-hacktoberfest&quot;&gt;varundey.me&lt;/a&gt;
+Thanks for his support!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lmen.us&quot;&gt;lmen.us&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.sanjaynambiar.net&quot;&gt;www.sanjaynambiar.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://johngodesign.com&quot;&gt;johngodesign.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.openbuddha.com&quot;&gt;www.openbuddha.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.simonruf.de&quot;&gt;www.simonruf.de&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://xiaohaoyu.tk&quot;&gt;xiaohaoyu.tk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://simecek.xyz&quot;&gt;simecek.xyz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://yuhao.info&quot;&gt;yuhao.info&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://markzporter.me&quot;&gt;markzporter.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://asset.joshuaavalon.com&quot;&gt;asset.joshuaavalon.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;find more like these examples:&lt;br /&gt;
+&lt;a href=&quot;https://www.google.de/search?q=jekyll+theme+by+lukas+himsel&quot;&gt;https://www.google.de/search?q=jekyll+theme+by+lukas+himsel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github Project: &lt;a href=&quot;https://github.com/lukas-h/material-theme&quot;&gt;lukas-h/material-theme&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Use my jekyll theme</title>
+   <link href="http://localhost:4000/2016/09/19/use-my-jekyll-theme.html"/>
+   <updated>2016-09-19T21:10:00+01:00</updated>
+   <id>http://localhost:4000/2016/09/19/use-my-jekyll-theme</id>
+   <content type="html">&lt;h2 id=&quot;hints&quot;&gt;Hints&lt;/h2&gt;
+
+&lt;p&gt;If you want to use my jekyll theme, follow the instructions and host it yourself. Easily setup as a Github page.&lt;/p&gt;
+
+&lt;p&gt;To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; manually. Required to configure in this dimensions is a bit of html and jekyll know-how. Reading the &lt;a href=&quot;http://jekyllrb.com/docs/pages/&quot;&gt;Jekyll docs&lt;/a&gt; could help. All other things are easy to edit and configure, even without much jekyll experience.&lt;/p&gt;
+
+&lt;h4 id=&quot;theme-features&quot;&gt;Theme features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Projects showcase&lt;/li&gt;
+  &lt;li&gt;RSS and ATOM feed&lt;/li&gt;
+  &lt;li&gt;Blogpost pagination&lt;/li&gt;
+  &lt;li&gt;SEO meta tags, &lt;em&gt;schema.org&lt;/em&gt; structured data&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dev.twitter.com/cards/getting-started&quot;&gt;twitter&lt;/a&gt; cards&lt;/li&gt;
+  &lt;li&gt;made with MaterializeCSS&lt;/li&gt;
+  &lt;li&gt;Disqus comments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-get-the-sources&quot;&gt;1. Get the sources&lt;/h3&gt;
+
+&lt;h4 id=&quot;11-clone&quot;&gt;1.1 Clone&lt;/h4&gt;
+
+&lt;p&gt;Clone the repository from github:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/lukas-h/material-theme.git&quot;&gt;https://github.com/lukas-h/material-theme.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;12-or-download&quot;&gt;1.2 or download&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/lukas-h/material-theme/archive/gh-pages.zip&quot;&gt;https://github.com/lukas-h/material-theme/archive/gh-pages.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-configure&quot;&gt;2. Configure&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Replace all the configuration in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/projects.yml&lt;/code&gt; by your own data. Change the name, email address, configure your your language settings.&lt;br /&gt;
+And most important: change the site’s URL! Optionally add your google analytics ID.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Put your address and legal info into &lt;code class=&quot;highlighter-rouge&quot;&gt;imprint.html&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Change the icon &lt;code class=&quot;highlighter-rouge&quot;&gt;images/favicon.png&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Replace the domain name in the &lt;code class=&quot;highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t forget the &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-start-writing-posts&quot;&gt;3. Start writing posts&lt;/h3&gt;
+&lt;p&gt;Replace the existing example post and then add your own!&lt;br /&gt;
+Have a look at the &lt;a href=&quot;http://jekyllrb.com/docs/posts/&quot;&gt;Jekyll docs&lt;/a&gt;
+about how to write blog posts.&lt;br /&gt;
+To add tags to your posts, look into the example, you’ll see that there is
+a line starting with &lt;code class=&quot;highlighter-rouge&quot;&gt;tags:&lt;/code&gt;. Add your keywords there.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-youre-done&quot;&gt;4. You’re done&lt;/h3&gt;
+&lt;p&gt;Take a stop on the Github project page. Feel free to give a star and share it with others!&lt;br /&gt;
+You have questions, feedback or something to improve, mail me or open issues on github. Contributions are always welcome.&lt;br /&gt;
+Thanks to them who have already &lt;a href=&quot;https://github.com/lukas-h/material-theme/graphs/contributors&quot;&gt;helped&lt;/a&gt; to improve, especially &lt;a href=&quot;https://github.com/varundey&quot;&gt;@varundey&lt;/a&gt;!&lt;br /&gt;
+See the &lt;a href=&quot;https://github.com/lukas-h/material-theme&quot;&gt;Github Project&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Markdown flavour</title>
+   <link href="http://localhost:4000/2016/09/18/welcome.html"/>
+   <updated>2016-09-18T23:00:00+01:00</updated>
+   <id>http://localhost:4000/2016/09/18/welcome</id>
+   <content type="html">&lt;p&gt;I have some text.&lt;/p&gt;
+
+&lt;p&gt;I want some &lt;em&gt;italics&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I want some &lt;strong&gt;bold&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;this-is-heading-1&quot;&gt;this is heading 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;this-is-heading-2&quot;&gt;this is heading 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;this-is-heading-3&quot;&gt;this is heading 3&lt;/h3&gt;
+
+&lt;p&gt;you want a list?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;first&lt;/li&gt;
+  &lt;li&gt;second&lt;/li&gt;
+  &lt;li&gt;third&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;you want an ordered list?&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;whatever&lt;/li&gt;
+  &lt;li&gt;whatever&lt;/li&gt;
+  &lt;li&gt;whatever&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
