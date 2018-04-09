@@ -13,14 +13,19 @@ body {
 /*  font-family: "Roboto Condensed", Arial, sans-serif;
 *//*  background: url("/static/img/subtle_dots.png");
 */
+
+  font-family: "Roboto Condensed", Arial, sans-serif;
   background: #333333;
 /*  line-height: 1.5em;
   font-weight: 300;
-  font-size: 18px;
-*//*  color: #666;
-*/  color: #FFFFFF;
+  font-size: 18px; */
+	color: #e6e6e6;
+/*  text-align:center;
+*/}
+/*input{
+   text-align:center;
 }
-
+*/
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -125,65 +130,67 @@ body {
   src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url(fonts/lfl.ttf) format('truetype');
 }
 a{
-    font-family: 'Share Tech Mono', monospace;
+	font-family: 'Share Tech Mono', monospace;
 }
 .my-link{
-    font-size: 18px !important;
+	font-size: 18px !important;
 }
 .my-link:hover{
-    background: #c9f6ff;
-    border: 0px solid #c9f6ff;
-    border-radius: 3px;
+	background: #c9f6ff;
+	border: 0px solid #c9f6ff;
+	border-radius: 3px;
 }
 .my-link:active{
-    background: #c9dcff;
-    border: 1px solid #c9dcff;
-    border-radius: 3px;
+	background: #c9dcff;
+	border: 1px solid #c9dcff;
+	border-radius: 3px;
 }
 .my-section{
-    text-align: center;
-    margin-bottom: 45px;
-    margin-top: 45px;
+	text-align: center;
+	margin-bottom: 45px;
+	margin-top: 45px;
 }
 .my-name{
 	/*font-family: 'Vast Shadow', cursive;*/
 	font-family: 'Playfair Display SC', serif;
-    /*font-size: 45px;*/
-    font-size: 35px;
-    color: #FFFFFF;
+	/*font-size: 45px;*/
+	font-size: 35px;
+	color: #d9d9d9;
 }
 .my-name:hover{
 /*    color: black;
 */    color: white;
 }
 .my-name:active{
-    color: black;
+	color: black;
 }
 .my-heading{
-    /*font-family: 'Vast Shadow', cursive;*/
-    font-family: 'Playfair Display SC', serif;
-    font-size: 37px;
-    margin-top: 70px;
+	/*font-family: 'Vast Shadow', cursive;*/
+	font-family: 'Playfair Display SC', serif;
+	font-size: 37px;
+	margin-top: 70px;
+	/*color: #ff3300;*/
 }
 .my-heading-sub{
-    font-size: 33px;
+	font-size: 33px;
 }
 .my-mini-heading{
-    /*font-family: 'Vast Shadow', cursive;*/
-    font-family: 'Playfair Display SC', serif;
-    font-weight: normal;
-    font-size: 27px;
+	/*font-family: 'Vast Shadow', cursive;*/
+	font-family: 'Playfair Display SC', serif;
+	font-weight: normal;
+	font-size: 27px;
+	color: #d9d9d9
 }
 .my-mini-heading-sub{
-    font-family: 'Share Tech Mono', monospace;
-    font-weight: normal;    
-    font-size: 14.5px;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: normal;    
+	font-size: 14.5px;
 }
 .my-description{
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 15;
-    color: #4db6ac;
-    margin-top: 50px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 15;
+	color: #4db6ac;
+	margin-top: 50px;
 }
 .my-footer{
 	position:fixed;
@@ -206,93 +213,114 @@ a{
   transform: translateY(+100%);
 }
 .my-imprint-link{
-    font-size: 8.5px;
-    padding-left: 8px;
-    padding-right: 8px;
+	font-size: 8.5px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 .my-imprint-link:hover{
-    color: #38c1c1;
+	color: #38c1c1;
 /*    color: #ffffff;
 */}
 .my-text-body{
-    font-family: 'Playfair Display', serif;
-    font-size: 16px;
-    margin-top: 20px;
+	/*font-family: "Roboto Condensed", Arial, sans-serif;*/
+	font-family: "Monospace Regular", Arial, sans-serif;
+	/*font-family: 'Playfair Display', serif;*/
+	font-size: 16px;
+	margin-top: 20px;
+	/*color: #cccccc;*/
+	color: #d9d9d9;
 }
 .my-text-body h1,h2,h3,h4,h5,h6 {
-    font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 .my-text-body h1{
-    font-size: 25px;
+	font-size: 25px;
 }
 .my-text-body h2{
-    font-size: 22px;
+	font-size: 22px;
 }
 .my-text-body h3{
-    font-size: 19px;
+	font-size: 19px;
 }
 .my-text-body h4{
-    font-size: 18px;
+	font-size: 18px;
 }
 .my-text-body h5{
-    font-size: 17px;
+	font-size: 17px;
 }
 .my-text-body h6{
-    font-size: 16px;
+	font-size: 16px;
 }
 .my-text-author{
 	font-size: 17px;
-     font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 	margin: 30px 0 25px;
 }
 .my-text-body a{
-    font-size: 16px;
+	font-size: 16px;
 }
 .my-text-body a:hover{
-    background: #c9f6ff;
-    border: 0px solid #c9f6ff;
-    border-radius: 3px;
+	background: #c9f6ff;
+	border: 0px solid #c9f6ff;
+	border-radius: 3px;
 }
 .my-text-body a:active{
-    background: #c9dcff;
-    border: 0px solid #c9dcff;
-    border-radius: 3px;
+	background: #c9dcff;
+	border: 0px solid #c9dcff;
+	border-radius: 3px;
 }
 
 .my-twitter-link:hover{
-    color: #1da0f2;
+	color: #1da0f2;
 }
 .my-github-link:hover{
-    color: #e19e2f;
+	color: #e19e2f;
 }
 .my-mail-link:hover{
-    color: #ea8462;
+	color: #ea8462;
 }
 .my-item{
-     font-family: 'Playfair Display', serif;    
-    font-size: 16px;
-    margin-bottom: 40px;
+	 /*font-family: 'Playfair Display', serif;    */
+	font-family: "Monospace Regular", Arial, sans-serif;
+	font-size: 16px;
+	margin-bottom: 40px;
+	color: #d9d9d9
 }
+/*ul li {list-style-type: disc;}
+*/
 .my-item2{
-    font-family: 'Playfair Display', serif;    
-    font-size: 16px;
-    margin-bottom: 15px;
-}
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	margin-bottom: 15px;
+/*	list-style-type: disc;
+*/}
 .my-item-sub{
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 13px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 13px;
+}
+.simple-search{
+	font-size: 30px;
+	vertical-align: top;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10em;
 }
 .my-tag{
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 14.5px;
-    color: #4db6ac;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 14.5px;
+	color: #4db6ac;
 }
 #projects, #posts, #about{
-    display: none;
+	display: none;
 }
 img{
-    max-width: 100%;
+	max-width: 100%;
+}
+.custom_li{
+	list-style-type: disc;
+	color: d9d9d9;
 }
