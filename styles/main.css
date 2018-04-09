@@ -323,4 +323,5 @@ img{
 .custom_li{
 	list-style-type: disc;
 	color: d9d9d9;
+	list-style-position: inside;
 }
