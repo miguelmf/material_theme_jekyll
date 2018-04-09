@@ -9,6 +9,7 @@
 6. Several changes to the Posts menu (removed the small paragraph below each post, brought the titles closer together, added "»»" for eye guidance, etc);
 7. Changed coloring of the buttons, when active and when inactive;
 8. Hid the bottom bar (I'd rather add those links in the about page);
+9. Added a search function using https://github.com/christian-fei/Simple-Jekyll-Search. You can easily disable it by editing index.html.
 
 And that is all I can remember. Please check out the original theme in [https://github.com/lukas-h/material-theme](https://github.com/lukas-h/material-theme). [lukas-h](https://github.com/lukas-h) did great here and he also has other nice themes. Check him out.
 
